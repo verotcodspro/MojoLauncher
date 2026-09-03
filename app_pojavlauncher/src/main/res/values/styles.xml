@@ -27,6 +27,31 @@
         <item name="android:layout_height">@dimen/_66sdp</item>
     </style>
 
+    <style name="LauncherMenuButton.Glass" parent="LauncherMenuButton.Universal">
+        <item name="android:background">@drawable/bg_glass_button</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowColor">#99000000</item>
+        <item name="android:shadowRadius">4</item>
+        <item name="android:shadowDy">1</item>
+    </style>
+
+    <style name="LauncherMenuButton.GlassRow" parent="LauncherMenuButton.Universal">
+        <item name="android:background">@drawable/bg_glass_button</item>
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowColor">#99000000</item>
+        <item name="android:shadowRadius">4</item>
+        <item name="android:shadowDy">1</item>
+    </style>
+
     <style name="ThickDivider">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/_1sdp</item>
